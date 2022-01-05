@@ -1,0 +1,30 @@
+{
+  "name": "javascript-tdd-practice",
+  "version": "1.0.0",
+  "description": "javascript로 배우는 tdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giwonn/javascript-tdd-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giwonn/javascript-tdd-practice/issues"
+  },
+  "homepage": "https://github.com/giwonn/javascript-tdd-practice#readme",
+  "devDependencies": {
+    "mocha": "^9.1.3",
+    "should": "^13.2.3",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "morgan": "^1.10.0"
+  }
+}
