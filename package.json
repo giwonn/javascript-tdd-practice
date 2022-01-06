@@ -4,7 +4,7 @@
   "description": "javascript로 배우는 tdd",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha",
+    "test": "mocha index.spec.js -exit",
     "start": "node index.js"
   },
   "repository": {
